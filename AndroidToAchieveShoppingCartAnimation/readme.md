@@ -1,7 +1,8 @@
 > 需求：点击触发事件，使一个圆点或者其他的什么东西，移动到另外一个元素上。由于是使用坐标进行移动，所以，会出现起始点位置，中途的路径，落点位置的点不是中心点，而是做小X轴和Y轴焦点。当然这个案例会考虑这个问题，并解决这个问题。
 
 ### 示例图
-![Android实现购物车动画示例图](http://upload-images.jianshu.io/upload_images/4678351-61cf22540e5c09e4.gif)
+
+![Android实现购物车动画示例图](http://upload-images.jianshu.io/upload_images/4678351-61cf22540e5c09e4.gif?imageMogr2/auto-orient/strip)
 
 ### `activity_main.xml`代码
 ```
@@ -33,27 +34,23 @@
 ```
 ### `MainActivity`代码
 > 这个方法就没啥说的了.初始化调用,以及动画效果在这里定义.
+
 ```
 package cn.meaoo.myapplication;
-
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-
 /**
  * 物体抛物线移动
  * Created by meaoo on 2017/4/14.
  */
-
 public class MainActivity extends AppCompatActivity {
     private View startView, toView;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_dot);
-
         //起始点元素
         startView = findViewById(R.id.btn);
         //结束点元素
@@ -341,4 +338,12 @@ public class CommonUtil {
 
 }
 
+```
+
+### 结尾
+如果对上面的操作有任何疑问或者问题，无法得到解决，请与我联系
+```
+//发送邮件或者添加QQ，请说明什么问题，以及文章链接，这样方便对您的问题进行更详尽的回答
+E-mail：m@meaoo.cn
+QQ : 774540069
 ```
