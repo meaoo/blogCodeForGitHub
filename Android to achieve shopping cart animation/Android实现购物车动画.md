@@ -1,7 +1,7 @@
 > 需求：点击触发事件，使一个圆点或者其他的什么东西，移动到另外一个元素上。由于是使用坐标进行移动，所以，会出现起始点位置，中途的路径，落点位置的点不是中心点，而是做小X轴和Y轴焦点。当然这个案例会考虑这个问题，并解决这个问题。
 
 ### 示例图
-![Android实现购物车动画示例图](http://upload-images.jianshu.io/upload_images/4678351-61cf22540e5c09e4.gif?imageMogr2/auto-orient/strip)
+![Android实现购物车动画示例图](http://upload-images.jianshu.io/upload_images/4678351-61cf22540e5c09e4.gif)
 
 ### `activity_main.xml`代码
 ```
